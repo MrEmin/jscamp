@@ -1,16 +1,27 @@
-let sayi1 = 10
-sayi1 = "Engin Demiroğ"
-let student = {id:1, name: "Engin"}
-//console.log(student);
+console.log("Merhaba Kodlama.io");
 
-function save(puan=10, ogrenci) {
-    console.log(ogrenci.name + " : " + puan);
+let dolarBugun = 9.30;
+
+let dolarDun = 9.20;
+dolarDun = "9.20"
+
+{
+    let dolarDun = 9.10
 }
 
-save(undefined ,student);
+console.log(dolarDun);
 
-let students = ["Engin Demiroğ", "Halit Kalaycı", "Engin Toprak", "Büşra"];
-//console.log(students);
+const euroDun = 11.2
+//euroDun = 11
 
-let students2 = [student, {id:2, name: "Halit"}, "Ankara", {city:"İstanbul"}]
-console.log(students2);
+console.log(euroDun);
+
+//array
+let konutKredileri = ["Konut Kredisi", "Emlak Konut Kredisi", "Kamu Konut Kredisi", "Özel Konut Kredisi"];
+
+console.log("<ul>");
+for (let i = 0; i < konutKredileri.length; i++) {
+    console.log("<li>" + konutKredileri[i] + "</li>");
+}
+console.log("</ul>");
+console.log(konutKredileri);
