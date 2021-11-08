@@ -30,3 +30,6 @@ console.log(konutKredileri);
 //javascript fonksiyonel bir dildir. Artık javascript'de oop yapısına uygun bir mimariye sahip.
 // SOLID prensiplerine uyup, nesne yönelimli proglama ile sürdürülebilir bir alt yapı yapmamız lazım.
 //ecmascript ile javascript'e dahil olan fonksiyonlar vardır. 3. derste bunları öğreniyoruz.
+//component gerçek hayattaki ekrandır. UserService'i componente dahil ederiz. let userservice = new UserService ile.
+//UserService metot havuzudur.
+//Class'lar referans tiptir
