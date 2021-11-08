@@ -9,7 +9,20 @@ let cart = [
     {id:1, productName:"Pot", quantity:5, unitPrice:150},
 ]
 
+//map fonksiyonu elenmanları tek tek dolaşır. Elemanlara tek tek takma isim verir. Burdaki takma isim product'tır. Sepeti dolaşır ve her bir product için yazdığımız hareketi yapar. React'te ise tıpkı bunun gibi ul li etiketleriyle yazarız.
+console.log("<ul>");
+cart.map(product=>{
+    console.log("<li>" + product.productName + " : " + product.unitPrice * product.quantity + "</li>")
+})
+console.log("</ul>");
 
+//acc = accumulator. Genellikle acc kullanılır.
+let total = cart.reduce((acc, product) => acc + product.unitPrice * product.quantity, 0)
+console.log(total);
+
+
+let quantityOver2 = cart.filter(product=>product.quantity>2)
+console.log(quantityOver2);
 
 //durum yönetimine dikkat etmeliyiz = stage management. SPA = singel page application.
 
