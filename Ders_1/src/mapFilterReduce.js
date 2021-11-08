@@ -20,7 +20,7 @@ console.log("</ul>");
 let total = cart.reduce((acc, product) => acc + product.unitPrice * product.quantity, 0)
 console.log(total);
 
-
+//Fiter fonksionuda oldukça fazla kullanılır. bir şeyi aramak için veya filtreleme yapmak için kullanılırız. Genellikle yeni array oluşturmak için kullanılır.
 let quantityOver2 = cart.filter(product=>product.quantity>2)
 console.log(quantityOver2);
 
