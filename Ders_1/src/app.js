@@ -25,3 +25,8 @@ for (let i = 0; i < konutKredileri.length; i++) {
 }
 console.log("</ul>");
 console.log(konutKredileri);
+
+//3.gün notları
+//javascript fonksiyonel bir dildir. Artık javascript'de oop yapısına uygun bir mimariye sahip.
+// SOLID prensiplerine uyup, nesne yönelimli proglama ile sürdürülebilir bir alt yapı yapmamız lazım.
+//ecmascript ile javascript'e dahil olan fonksiyonlar vardır. 3. derste bunları öğreniyoruz.

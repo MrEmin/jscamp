@@ -112,3 +112,6 @@ let newProductName, newUnitPrice, newQuantity
 console.log(newProductName);
 console.log(newUnitPrice);
 console.log(newQuantity);
+
+//Ders 3
+
