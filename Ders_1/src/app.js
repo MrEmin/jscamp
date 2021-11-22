@@ -33,3 +33,9 @@ console.log(konutKredileri);
 //component gerçek hayattaki ekrandır. UserService'i componente dahil ederiz. let userservice = new UserService ile.
 //UserService metot havuzudur.
 //Class'lar referans tiptir
+
+//4.gün notları
+//User temel sınıf (class) gibi, customer ise onun eklentili hali gibi.
+//Fake data yaptık
+//node modules kullandığımız için import eklendiğinde dosya ismine js uzantısı eklenmiyor, manuel olarak eklememiz lazım.
+//
