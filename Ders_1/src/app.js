@@ -38,4 +38,6 @@ console.log(konutKredileri);
 //User temel sınıf (class) gibi, customer ise onun eklentili hali gibi.
 //Fake data yaptık
 //node modules kullandığımız için import eklendiğinde dosya ismine js uzantısı eklenmiyor, manuel olarak eklememiz lazım.
-//
+//2. yarı
+//dataerrors eklendi
+//doğrulama sürecini işliyoruz.
